@@ -1,5 +1,6 @@
 package com.example.my_application1;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -15,6 +16,10 @@ public class MainActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
+        ActionBar actionBar=getSupportActionBar();
+        if(actionBar!=null){
+            actionBar.hide();
+        }
         Button buttont1=(Button)findViewById(R.id.button3);
         buttont1.setOnClickListener(new View.OnClickListener()        {
             //@Override

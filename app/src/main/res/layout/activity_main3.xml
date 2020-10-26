@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
+    <include layout="@layout/title"></include>
 <!--androidx.percentlayout:percentlayout:1.0.0-->
 <!--
 <androidx.percentlayout.widget.PercentFrameLayout
