@@ -15,12 +15,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="5dp"
             android:text="Back"/>
 
         <TextView
+            android:id="@+id/title_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="24sp"
             android:text="Title Text"/>
 
 
@@ -29,6 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="5dp"
             android:text="edit"/>
 
     </LinearLayout>
