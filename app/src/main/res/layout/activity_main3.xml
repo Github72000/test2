@@ -23,20 +23,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button3"
-        android:text="Button"
-        android:layout_gravity="center"
 
-        app:layout_widthPercent="10%"
-        app:layout_heightPercent="10%"
-        tools:ignore="MissingConstraints"
-        />
         <!--app:layout_widthPercent="10%"
         app:layout_heightPercent="10%"-->
         <!--
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"-->
+        <!--
+        <Button
+            android:id="@+id/button3"
+            android:text="Button"
+            android:layout_gravity="center"
+
+            app:layout_widthPercent="10%"
+            app:layout_heightPercent="10%"
+            tools:ignore="MissingConstraints"
+            />
 
         <ImageView
             android:id="@+id/imageView"
@@ -52,6 +54,12 @@
             android:layout_gravity="left|bottom"
             app:srcCompat="@drawable/ic_launcher_background"
             tools:ignore="VectorDrawableCompat" />
+-->
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
 
  </androidx.percentlayout.widget.PercentFrameLayout>
 
