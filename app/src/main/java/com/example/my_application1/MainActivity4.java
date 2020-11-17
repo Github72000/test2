@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class MainActivity4 extends AppCompatActivity {
+public class MainActivity4 extends BaseActivity {
 
     private List<Fruit> fruitList= new ArrayList<>();
 

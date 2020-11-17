@@ -16,7 +16,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity3 extends AppCompatActivity {
+public class MainActivity3 extends BaseActivity {
 
     private List<Fruit> fruitList= new ArrayList<>();
 

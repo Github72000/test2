@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,9 +29,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String data="Hello second activity";
+                /*
                 Intent intent1=new Intent(MainActivity.this,MainActivity2.class);
                 intent1.putExtra("extra_data",data);
-                startActivityForResult(intent1,1);
+                startActivityForResult(intent1,1);*/
+                Intent intent2=MainActivity2.newIntent(MainActivity.this,"CHG","HG");
+                startActivity(intent2);
+
 
                 Intent intent=new Intent("com.example.activitytest.ACTION_START");
                 intent.addCategory("com.example.activitytest.MY_CATEGORY");
