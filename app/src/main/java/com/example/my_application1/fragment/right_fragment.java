@@ -19,6 +19,8 @@ public class right_fragment extends Fragment {
         MainActivity6 activity6 = (MainActivity6) getActivity();
         //activity6.getSupportFragmentManager();
         return view;
+
+        
     }
 
 }
