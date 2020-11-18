@@ -1,4 +1,4 @@
-package com.example.my_application1;
+package com.example.my_application1.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,6 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+
+import com.example.my_application1.Msg;
+import com.example.my_application1.MsgAdapter;
+import com.example.my_application1.R;
 
 import java.util.ArrayList;
 import java.util.List;

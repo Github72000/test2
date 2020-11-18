@@ -1,6 +1,4 @@
-package com.example.my_application1;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.my_application1.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,6 +7,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.my_application1.ActivityCollector;
+import com.example.my_application1.BaseActivity;
+import com.example.my_application1.R;
 
 public class MainActivity2 extends BaseActivity {
 
@@ -123,5 +125,15 @@ public class MainActivity2 extends BaseActivity {
                 startActivity(intent21);
             }
         });
+
+        Button button22= (Button) findViewById(R.id.button22);
+        button22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent22 = new Intent(MainActivity2.this,MainActivity7.class);
+                startActivity(intent22);
+            }
+        });
     }
+
 }

@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity4">
+    tools:context=".activity.MainActivity7">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-<androidx.recyclerview.widget.RecyclerView
-    android:id="@+id/recycler_view"
+<FrameLayout
+    android:id="@+id/news_title_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+    android:layout_height="match_parent">
 
-    </LinearLayout>
+    <fragment
+        android:id="@+id/news_title_fragment"
+        android:name="com.example.my_application1.fragment.NewsTitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

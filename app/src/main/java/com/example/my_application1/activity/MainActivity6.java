@@ -1,4 +1,4 @@
-package com.example.my_application1;
+package com.example.my_application1.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.my_application1.R;
 import com.example.my_application1.fragment.AnotherRightFragment;
 import com.example.my_application1.fragment.left_fragment;
 import com.example.my_application1.fragment.right_fragment;
@@ -20,8 +21,8 @@ public class MainActivity6 extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main6);
         Button button = (Button) findViewById(R.id.button_f1);
-        button.setOnClickListener(this);
-        replaceFragement(new right_fragment());
+        //button.setOnClickListener(this);
+        //replaceFragement(new right_fragment());
         left_fragment left_fragment1 = (left_fragment) getSupportFragmentManager()
                 .findFragmentById(R.id.left_fragment);
 
